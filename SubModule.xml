@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "Bannersample"/>
+	<Id value = "Bannersample"/>
+	<Version value = "e1.0.0"/>
+	<DefaultModule value="true"/>
+	<SingleplayerModule value="true"/>
+  <Official value="false" />
+  <DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value = "BannersampleSubModule"/>
+			<DLLName value = "Bannersample.dll"/>
+			<SubModuleClassType value = "Bannersample.BannersampleSubModule"/>			
+			<Tags>
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls>
+	</Xmls>
+</Module>
